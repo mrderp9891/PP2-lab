@@ -1,0 +1,6 @@
+C:\Users\madik\source\repos\main\ClassStudent1\obj\Debug\ClassStudent1.csprojResolveAssemblyReference.cache
+C:\Users\madik\source\repos\main\ClassStudent1\obj\Debug\ClassStudent1.csproj.CoreCompileInputs.cache
+C:\Users\madik\source\repos\main\ClassStudent1\bin\Debug\ClassStudent1.exe
+C:\Users\madik\source\repos\main\ClassStudent1\bin\Debug\ClassStudent1.pdb
+C:\Users\madik\source\repos\main\ClassStudent1\obj\Debug\ClassStudent1.exe
+C:\Users\madik\source\repos\main\ClassStudent1\obj\Debug\ClassStudent1.pdb

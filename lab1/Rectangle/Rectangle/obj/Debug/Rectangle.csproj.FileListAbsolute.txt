@@ -1,0 +1,5 @@
+C:\Users\madik\source\repos\Rectangle\Rectangle\bin\Debug\Rectangle.exe
+C:\Users\madik\source\repos\Rectangle\Rectangle\bin\Debug\Rectangle.pdb
+C:\Users\madik\source\repos\Rectangle\Rectangle\obj\Debug\Rectangle.csproj.CoreCompileInputs.cache
+C:\Users\madik\source\repos\Rectangle\Rectangle\obj\Debug\Rectangle.exe
+C:\Users\madik\source\repos\Rectangle\Rectangle\obj\Debug\Rectangle.pdb
