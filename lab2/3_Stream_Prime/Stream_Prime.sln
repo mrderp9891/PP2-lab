@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stream_Prime", "Stream_Prime\Stream_Prime.csproj", "{A5EF2385-A5C1-4804-BD4A-D70E49AC498B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5EF2385-A5C1-4804-BD4A-D70E49AC498B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5EF2385-A5C1-4804-BD4A-D70E49AC498B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5EF2385-A5C1-4804-BD4A-D70E49AC498B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5EF2385-A5C1-4804-BD4A-D70E49AC498B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6E75FA2-976E-434B-87A7-981B732BFA9F}
+	EndGlobalSection
+EndGlobal

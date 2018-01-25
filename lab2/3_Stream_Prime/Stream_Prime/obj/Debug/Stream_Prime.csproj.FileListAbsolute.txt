@@ -1,0 +1,6 @@
+C:\Users\madik\source\repos\Stream_Prime\Stream_Prime\bin\Debug\Stream_Prime.exe
+C:\Users\madik\source\repos\Stream_Prime\Stream_Prime\bin\Debug\Stream_Prime.pdb
+C:\Users\madik\source\repos\Stream_Prime\Stream_Prime\obj\Debug\Stream_Prime.csproj.CoreCompileInputs.cache
+C:\Users\madik\source\repos\Stream_Prime\Stream_Prime\obj\Debug\Stream_Prime.exe
+C:\Users\madik\source\repos\Stream_Prime\Stream_Prime\obj\Debug\Stream_Prime.pdb
+C:\Users\madik\source\repos\Stream_Prime\Stream_Prime\obj\Debug\Stream_Prime.csprojResolveAssemblyReference.cache
