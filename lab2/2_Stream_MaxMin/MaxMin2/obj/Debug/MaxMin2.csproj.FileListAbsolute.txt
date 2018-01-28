@@ -1,5 +1,0 @@
-C:\Users\madik\source\repos\MaxMin2\MaxMin2\bin\Debug\MaxMin2.exe
-C:\Users\madik\source\repos\MaxMin2\MaxMin2\bin\Debug\MaxMin2.pdb
-C:\Users\madik\source\repos\MaxMin2\MaxMin2\obj\Debug\MaxMin2.csproj.CoreCompileInputs.cache
-C:\Users\madik\source\repos\MaxMin2\MaxMin2\obj\Debug\MaxMin2.exe
-C:\Users\madik\source\repos\MaxMin2\MaxMin2\obj\Debug\MaxMin2.pdb
