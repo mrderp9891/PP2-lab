@@ -12,29 +12,30 @@ namespace Lab3
         
         public static void PrimeFun1()
         {
+            string s = File.ReadAllText(@"D:\prime.txt");
             
-            FileStream fr = new FileStream(@"D:\MaxMin.txt", FileMode.Open, FileAccess.Read);
-            StreamReader sr = new StreamReader(fr);
-            string s = sr.ReadLine();
-
-            string ans = " ";
             string[] ss;
             ss = s.Split(' ');
 
             var a = new List<int>();
+            
             for (int j = 0; j < ss.Length; j++)
             {
                 if (Prime(int.Parse(ss[j])) == true)
                     a.Add(int.Parse(ss[j]));
             }
+            int min = a[0];
             for (int i = 0; i < a.Count; i++)
             {
-                Console.WriteLine(a[i]);
-                ans = ans + a[i] + " ";
+                if (a[i] <= min)
+                {
+                    min = a[i];
+                }
             }
-          
-            sr.Close();
-            fr.Close();
+                 Console.WriteLine(min);
+                 string mystring = min.ToString();
+                 File.WriteAllText(@"D:\answer.txt", mystring);
+            
         }
 
         public static bool Prime(int a)
@@ -57,27 +58,14 @@ namespace Lab3
                 }
             }
             return isprime;
-
         }
 
-        public static void PrimeFun2()
-        {
-            FileStream fr = new FileStream(@"D:\answer.txt", FileMode.Open, FileAccess.Write);
-            StreamReader sr = new StreamReader(fr);
-        
-    
-                Console.WriteLine();
-            
-            sr.Close();
-            fr.Close();
-        }
 
         static void Main(string[] args)
         {
             PrimeFun1();
-            //PrimeFun2();
-            Console.ReadKey();
 
+            Console.ReadKey();
         }
     }
 }

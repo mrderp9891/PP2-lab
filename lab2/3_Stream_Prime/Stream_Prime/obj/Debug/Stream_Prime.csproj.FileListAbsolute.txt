@@ -4,3 +4,9 @@ C:\Users\madik\source\repos\Stream_Prime\Stream_Prime\obj\Debug\Stream_Prime.csp
 C:\Users\madik\source\repos\Stream_Prime\Stream_Prime\obj\Debug\Stream_Prime.exe
 C:\Users\madik\source\repos\Stream_Prime\Stream_Prime\obj\Debug\Stream_Prime.pdb
 C:\Users\madik\source\repos\Stream_Prime\Stream_Prime\obj\Debug\Stream_Prime.csprojResolveAssemblyReference.cache
+C:\Users\madik\Desktop\PP2-lab\lab2\3_Stream_Prime\Stream_Prime\bin\Debug\Stream_Prime.exe
+C:\Users\madik\Desktop\PP2-lab\lab2\3_Stream_Prime\Stream_Prime\bin\Debug\Stream_Prime.pdb
+C:\Users\madik\Desktop\PP2-lab\lab2\3_Stream_Prime\Stream_Prime\obj\Debug\Stream_Prime.csprojResolveAssemblyReference.cache
+C:\Users\madik\Desktop\PP2-lab\lab2\3_Stream_Prime\Stream_Prime\obj\Debug\Stream_Prime.csproj.CoreCompileInputs.cache
+C:\Users\madik\Desktop\PP2-lab\lab2\3_Stream_Prime\Stream_Prime\obj\Debug\Stream_Prime.exe
+C:\Users\madik\Desktop\PP2-lab\lab2\3_Stream_Prime\Stream_Prime\obj\Debug\Stream_Prime.pdb
