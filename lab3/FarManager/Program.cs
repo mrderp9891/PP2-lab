@@ -6,7 +6,7 @@ using System.IO;
 using System.Diagnostics;
 using System.Threading.Tasks;
 
-namespace _1.Up_Down
+namespace _FarManager
 {
     class Program
     {
@@ -15,7 +15,7 @@ namespace _1.Up_Down
             FileSystemInfo[] infos = cur.GetFileSystemInfos();
             for (int i = 0; i < infos.Length; i++)
             {
-                
+
                 Console.BackgroundColor = i == position ? ConsoleColor.Gray : ConsoleColor.Black;
                 Console.ForegroundColor = infos[i].GetType() == typeof(DirectoryInfo) ? ConsoleColor.Red : ConsoleColor.Magenta;
                 Console.WriteLine(infos[i].Name);
@@ -29,7 +29,7 @@ namespace _1.Up_Down
             Console.CursorVisible = false;
             int position = 0;
             DirectoryInfo dir = new DirectoryInfo(@"D:\Doge");
-            
+
             while (true)
             {
                 Console.Clear();
@@ -42,7 +42,7 @@ namespace _1.Up_Down
                     if (position < 0)
                     {
                         position = dir.GetFileSystemInfos().Length - 1;
-                        
+
                     }
                 }
                 if (btn.Key == ConsoleKey.DownArrow)
@@ -51,7 +51,7 @@ namespace _1.Up_Down
                     position++;
                     if (position > dir.GetFileSystemInfos().Length - 1)
                     {
-                       
+
                         position = 0;
                     }
                 }
@@ -61,13 +61,13 @@ namespace _1.Up_Down
                     if (f.GetType() == typeof(DirectoryInfo))
                     {
                         dir = new DirectoryInfo(f.FullName);
-                        position = 0; 
-                    } 
+                        position = 0;
+                    }
                     else
                     {
                         Process.Start(f.FullName);
                     }
-                    
+
                 }
                 if (btn.Key == ConsoleKey.Escape)
                 {
@@ -114,7 +114,7 @@ namespace _1.Up_Down
                     Console.Beep(16000, 500);
                 }
             }
-            
+
         }
     }
 }
