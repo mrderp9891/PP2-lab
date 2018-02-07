@@ -10,22 +10,28 @@ namespace Student
     {
         public string Fname;
         public string Lname;
-        public string gpa;
+        public double gpa;
+        public string n;
+        public string g;
+
 
         public Student()
         {
-            Console.WriteLine("First name : ");
-            Fname = Console.ReadLine();
-            Console.WriteLine("Last name : ");
-            Lname = Console.ReadLine();
-            Console.WriteLine("GPA : ");
-            gpa = Console.ReadLine();
-            Console.Clear();
+            
+            Fname = "Madi";
+            Lname = "Abdykarim";
+            gpa = 3.5;
+            
+            
         }
-
+        public Student(string name,string GPA)
+        {
+            n = name;
+            g = GPA;
+        }
         public override string ToString()
         {
-            return "First name is " + Fname + "\n" + "Last name is " + Lname + "\n" + "GPA is " + gpa;
+            return "Name is " + n + "\n"  + "GPA is " + g;
         }
     }
 
@@ -33,9 +39,15 @@ namespace Student
     {
         static void Main(string[] args)
         {
-       
-          Student Student = new Student();
-          Console.WriteLine(Student);
+            string name = Console.ReadLine();
+            string GPA = Console.ReadLine();
+
+            Student Student = new Student();
+            Student Student2 = new Student(name, GPA);
+
+
+           
+          Console.WriteLine(Student2);
 
 
 

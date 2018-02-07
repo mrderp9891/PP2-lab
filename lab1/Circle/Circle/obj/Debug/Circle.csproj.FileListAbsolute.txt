@@ -3,3 +3,9 @@ C:\Users\madik\source\repos\Circle\Circle\bin\Debug\Circle.pdb
 C:\Users\madik\source\repos\Circle\Circle\obj\Debug\Circle.csproj.CoreCompileInputs.cache
 C:\Users\madik\source\repos\Circle\Circle\obj\Debug\Circle.exe
 C:\Users\madik\source\repos\Circle\Circle\obj\Debug\Circle.pdb
+C:\Users\madik\Desktop\PP2-lab\lab1\Circle\Circle\bin\Debug\Circle.exe
+C:\Users\madik\Desktop\PP2-lab\lab1\Circle\Circle\bin\Debug\Circle.pdb
+C:\Users\madik\Desktop\PP2-lab\lab1\Circle\Circle\obj\Debug\Circle.csproj.CoreCompileInputs.cache
+C:\Users\madik\Desktop\PP2-lab\lab1\Circle\Circle\obj\Debug\Circle.exe
+C:\Users\madik\Desktop\PP2-lab\lab1\Circle\Circle\obj\Debug\Circle.pdb
+C:\Users\madik\Desktop\PP2-lab\lab1\Circle\Circle\obj\Debug\Circle.csprojResolveAssemblyReference.cache

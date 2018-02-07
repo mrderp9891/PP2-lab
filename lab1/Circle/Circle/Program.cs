@@ -6,24 +6,40 @@ using System.Text;
 
 namespace Circle
 {
-    class Circle
+    public class Circle
     {
         public int radius;
         public double area;
-        public int diam;
+        public double diam;
         public double circ;
 
 
         public Circle()
         {
-            Console.WriteLine("Radius : ");
-            radius = int.Parse(Console.ReadLine());
-
-            area = 3.14 * (radius * radius);
+            radius = 1;
+            area = 0;
+            diam = 0;
+            circ = 0;
+        }
+        
+        public Circle(int a)
+        {
+            radius = a;
+        }
+        public void FindArea()
+        {
+            area = Math.PI * (radius * radius);
+        }
+        public void FindDiameter()
+        {
             diam = 2 * radius;
-            circ = 3.14 * diam;
+        }
+        public void FindCircumference()
+        {
+            circ = 2 * Math.PI * radius;
         }
 
+        
         public override string ToString()
         {
             return "Area : " + area + "\n" + "Diameter : " + diam + "\n" + "Circumference : " + circ;
@@ -34,9 +50,14 @@ namespace Circle
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Radius : ");
+            Circle c = new Circle(int.Parse(Console.ReadLine()));
+            
+            c.FindArea();
+            c.FindDiameter();
+            c.FindCircumference();
 
-            Circle C = new Circle();
-            Console.WriteLine(C);
+            Console.WriteLine(c);
 
             Console.ReadKey();
         }
